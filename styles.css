@@ -10,10 +10,12 @@
   body {
     margin: 0;
   }
-  
-  .board {
+  .container{
     width: 100vw;
     height: 100vh;
+  }
+  .board {
+  
     display: grid;
     justify-content: center;
     align-content: center;
@@ -146,13 +148,31 @@
   }
 
 
+h1{
+  text-align: center;
+  font-size: 2.5rem;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+}
+h2{
+  text-align: center;
+  font-size: 1.5rem;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+}
 
   
 .social-menu p{
     text-align: center;
-    margin-top: -140px;
+    margin-top: px;
     color:black;
-    font-size: 35px;
+    font-size: 25px;
     font-weight: bold;
 
 }
@@ -166,7 +186,7 @@
 }
 .social-menu ul li{
     list-style: none;
-    margin:0 15px;
+    margin:0 6px;
   }
   
   .social-menu ul li .fa{
