@@ -181,18 +181,18 @@ h2{
     position: absolute;
     left: 50%;
     padding: 0px;
-    margin: 15px ;
+    margin: 10px ;
     transform: translate(-50%, -50%);
     display: flex;
 }
 .social-menu ul li{
     list-style: none;
-    margin:0 6px;
+    margin:0 5px;
   }
   
   .social-menu ul li .fa{
-     font-size:35px;
-     line-height: 70px;
+     font-size:25px;
+     line-height: 50px;
      transition: .6s;
      color: #000;
   
@@ -205,8 +205,8 @@ h2{
     .social-menu ul li a {
         position: relative;
         display:block;
-        width: 70px;
-        height: 70px;
+        width: 50px;
+        height: 50px;
         border-radius: 50%;
         background-color: #fff;
         text-align: center;
